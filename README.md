@@ -16,5 +16,5 @@ This repo is for reproducing the experimental results for our TCAD publication.
 #### （4）安装sensors，读取内核温度：sudo apt-get install lm-sensors
 #### （5）需要修改sudo配置文件，修改为使用sudo命令时不用输入密码：vi /etc/sudoers，将%sudo  ALL=(ALL:ALL)  ALL替换为%sudo   ALL=(ALL:ALL) NOPASSWD: ALL
 #### （6）编译parsec任务集：编译过程请参考https://blog.csdn.net/caoyahong114/article/details/51654937，和https://www.pianshen.com/article/88501726775/，确保 blackscholes,  fluidanimate , freqmine,  splash2x.fmm,  splash2x.radiosity,  splash2x.water_spatial, x264这七个程序均编译通过，并且每个任务下的五个输入（test , simdev ,simsmall , simmedium  simlarge）均可以使用.编译完成请配置parsec的环境变量，确保parsecmgmt命令可在所有根目录下使用，例如：parsecmgmt -a run -p x264 -i test。
-## python运行环境：python3,tensorflow-1.4,re,os,threading
+## 主要python运行环境：python3,tensorflow-1.4
 #### 最后希望您能顺利使用我们的实验源码，此外如果有用到我们源码，请引用我们的论文。
