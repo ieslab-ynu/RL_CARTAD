@@ -19,7 +19,7 @@ This repo is for reproducing the experimental results for our TCAD publication.
 ## 主要python运行环境：python3,tensorflow-1.4
 ## 运行：
 ### 运行方式：python run_CARTAD.py -t 1 -n 1000 .....
-### 查看参数：python run_CARTAD.py -h
+### 查看参数说明：python run_CARTAD.py -h
 ### 参数说明：
 ####       total_step： 所有任务运行的总次数（int型）
 ####       task_num  ： 使用的任务总数（1-35的整数）
